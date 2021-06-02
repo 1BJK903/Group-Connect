@@ -36,7 +36,7 @@
   ],
   "bots": [
     {
-      "botId": "<<botId>>",
+      "botId": "f08919a6-5e46-411f-b121-909db6c48455",
       "scopes": [
         "team"
       ],
@@ -52,7 +52,7 @@
     "https://Group-connect.azurewebsites.net"
   ],
   "webApplicationInfo": {
-    "id": "<<botId>>",
+    "id": "f08919a6-5e46-411f-b121-909db6c48455",
     "resource": "api://Group-connect.azurewebsites.net"
   }
 }
