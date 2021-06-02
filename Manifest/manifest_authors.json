@@ -27,7 +27,7 @@
   "accentColor": "#737373",
   "configurableTabs": [
     {
-      "configurationUrl": "https://<<appDomain>>/configtab",
+      "configurationUrl": "https://Group-connect.azurewebsites.net/configtab",
       "canUpdateConfiguration": true,
       "scopes": [
         "team"
@@ -49,10 +49,10 @@
     "messageTeamMembers"
   ],
   "validDomains": [
-    "<<appDomain>>"
+    "https://Group-connect.azurewebsites.net"
   ],
   "webApplicationInfo": {
     "id": "<<botId>>",
-    "resource": "api://<<appDomain>>"
+    "resource": "api://Group-connect.azurewebsites.net"
   }
 }
