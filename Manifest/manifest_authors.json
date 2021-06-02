@@ -5,10 +5,10 @@
   "id": "0c7397fc-9062-4eed-a16b-d8da7c330b8a",
   "packageName": "com.microsoft.teams.groupconnect.comms",
   "developer": {
-    "name": "<<companyName>>",
-    "websiteUrl": "<<websiteUrl>>",
-    "privacyUrl": "<<privacyUrl>>",
-    "termsOfUseUrl": "<<termsOfUseUrl>>"
+    "name": "Microsoft",
+    "websiteUrl": "https://microsoft.com",
+    "privacyUrl": "https://microsoft.com/privacy",
+    "termsOfUseUrl": "https://microsoft.com/terms"
   },
   "localizationInfo": {
     "defaultLanguageTag": "en"
