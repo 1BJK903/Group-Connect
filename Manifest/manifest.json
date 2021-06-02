@@ -1,0 +1,58 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.5",
+  "version": "1.0.0",
+  "id": "0c7397fc-9062-4eed-a16b-d8da7c330b8a",
+  "packageName": "com.microsoft.teams.groupconnect.comms",
+  "developer": {
+    "name": "Microsoft",
+    "websiteUrl": "https://microsoft.com",
+    "privacyUrl": "https://microsoft.com/privacy",
+    "termsOfUseUrl": "https://microsoft.com/terms"
+  },
+  "localizationInfo": {
+    "defaultLanguageTag": "en"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "name": {
+    "short": "Group Connect (Comms)"
+  },
+  "description": {
+    "short": "A tool for communication and settings management for Group Connect app",
+    "full": "Your internal team responsible for managing employee groups can use this companion to the Group connect app to send communications, manage settings, and oversee existing and new employee groups or resources as needed"
+  },
+  "accentColor": "#737373",
+  "configurableTabs": [
+    {
+      "configurationUrl": "https://Group-connect.azurewebsites.net/configtab",
+      "canUpdateConfiguration": true,
+      "scopes": [
+        "team"
+      ]
+    }
+  ],
+  "bots": [
+    {
+      "botId": "f08919a6-5e46-411f-b121-909db6c48455",
+      "scopes": [
+        "team"
+      ],
+      "supportsFiles": true,
+      "isNotificationOnly": false
+    }
+  ],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "https://Group-connect.azurewebsites.net"
+  ],
+  "webApplicationInfo": {
+    "id": "f08919a6-5e46-411f-b121-909db6c48455",
+    "resource": "api://Group-connect.azurewebsites.net"
+  }
+}
